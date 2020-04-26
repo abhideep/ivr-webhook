@@ -22,6 +22,11 @@
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
 
+  <!-- App Initialization -->
+  <listener>
+    <listener-class>com.dothat.startup.AppInitializer</listener-class>
+  </listener>
+
   <!-- Objectify Filter -->
   <filter>
     <filter-name>ObjectifyFilter</filter-name>
